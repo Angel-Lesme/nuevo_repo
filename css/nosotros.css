@@ -1,0 +1,39 @@
+body{
+    font-family: "Dosis", sans-serif;
+}
+
+.centro p{   
+    text-align: center;
+}
+
+.centro p img{
+    width: 80%;
+    height: auto;
+}
+
+.integrantes{
+    background-color: black;
+    color: white;
+
+}
+
+.jefe , .peluquera1 , .peluquera2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding:25px;
+}
+
+.peluquera1 {
+    flex-direction: row-reverse;
+}
+
+
+.jefe img , .peluquera1 img , .peluquera2 img {
+    border-radius: 60%;
+}
+

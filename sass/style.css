@@ -1,0 +1,152 @@
+.lista a {
+  color: white;
+  background-color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.lista a:hover {
+  color: gray;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: mintcream;
+  padding: 0px;
+  margin: auto;
+}
+
+body h1 {
+  color: #0d1414;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+header {
+  width: auto;
+  margin: 0px;
+  border: black;
+  border-style: ridge;
+  border-width: 2px;
+  background-color: black;
+  padding: 2px;
+}
+
+.lista {
+  background-color: black;
+  margin-right: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.lista a {
+  color: white;
+  background-color: black;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px;
+}
+
+.lista a:hover {
+  color: gray;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .gmail img {
+  width: 5%;
+}
+
+footer .gmail p {
+  font-size: 10px;
+  color: white;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .lista {
+    background-color: black;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .lista a {
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .lista {
+    background-color: black;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .lista a {
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

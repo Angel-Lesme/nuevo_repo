@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    font-family: "Dosis", sans-serif;
+}
+
+.titulo{
+    color: white;
+}
+
+.tablaPrecios{
+    display: flex;
+    justify-content: center;
+}
+
+.table-bordered{
+    width: 75%;
+    border-width: 5px;
+    background-color: grey;
+
+}
+
+th{ 
+    text-align: center;
+    text-decoration-line:underline;
+    color: black;
+}
+
+td{
+    text-align: center;
+    color: black;
+    padding: 2rem;
+}
+.nombreservicio{
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-decoration-line:underline;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.corteMasculino , .corteFemenino{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.corteFemenino{
+    flex-direction: row-reverse;
+}
+
+.corteMasculino img , .corteFemenino img{
+    padding: 35px;
+    width: 30%;
+    height: auto;
+    margin: 50px;
+    border-radius: 25%;
+}
+
+.descripcionServicio{
+    padding: 50px;
+    width: 35%;
+    font-size: 20px;    
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    float: right;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    .descripcionServicio{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        padding: 0px;
+        width: auto;
+    }
+
+    .corteMasculino img, .corteFemenino img{
+    margin: auto;
+    width: 85%;
+    padding: unset;
+    height: auto;
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px){
+    .descripcionServicio{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        padding: 0px;
+        width: auto;
+    }
+
+    .corteMasculino img, .corteFemenino img{
+    margin: auto;
+    width: 85%;
+    padding: unset;
+    height: auto;
+    }
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .descripcionServicio{
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        padding: 0px;
+        width: auto;
+    }
+
+    .corteMasculino img, .corteFemenino img{
+    margin: auto;
+    width: 85%;
+    padding: unset;
+    height: auto;
+    }
+}

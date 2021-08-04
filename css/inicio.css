@@ -1,0 +1,156 @@
+body{
+    font-family: "Dosis", sans-serif;
+}
+
+.grid-contenedor{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 5px;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+.articulo2{
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.centroincio {
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: center;
+    justify-content: flex-start;  
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: 5rem;
+}
+
+div.card-body {
+    flex: 1 1 auto;
+    padding: 0.1rem;
+}
+
+h5.card-title {
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+.card-text{
+    color: black;
+    margin-bottom: auto;
+}
+
+a.btn.btn-primary {
+    color: black;
+    background-color: gray;
+    border-color: black;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.centroincio img:hover{
+    transition: 5s;
+    transform: scaleY(1.1);
+}
+
+p{
+    font: 18px sans-serif;
+    color: white;
+    padding: 5px;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.iframe{
+    background-color:rgb(240, 240, 240);
+    margin: 15px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    p{
+        font: 12px sans-serif;
+        color: white;
+        padding: 5px;
+    }
+
+    .centroincio {
+        height: 53.125rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center ;
+    }
+
+    .card{
+        margin: 1.5rem;
+    }   
+
+    .centroincio img:hover{
+        transition: 5s;
+        transform: scaleY(1.5);
+    }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+    p{
+        font: 14px sans-serif;
+        color: white;
+        padding: 5px;
+    }
+
+    .centroincio {
+        height: 18.75rem;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        margin: 1.5rem;
+    }
+
+    .centroincio img:hover{
+        transition: 5s;
+        transform: scaleY(2.0);
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    p{
+        font: 16px sans-serif;
+        color: white;
+        padding: 5px;   
+    }
+
+    .centroincio {
+        height: 20.75rem;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        margin: 1.5rem;
+    }
+
+    .centroincio img:hover{
+        transition: 5s;
+        transform: scaleY(1.3);
+    }
+}

@@ -1,0 +1,197 @@
+body {
+  font-family: "Dosis", sans-serif;
+}
+
+.grid-contenedor {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 5px;
+}
+
+.grid-contenedor .carousel-item img {
+  height: 400px;
+}
+
+
+.articulo2 {
+  background-color: black;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content:center;
+  justify-content: space-around;
+}
+
+.articulo2 img:hover {
+  transition: 5s;
+  transform: scaleY(1.1);
+}
+
+.articulo2 .card {
+  width: 18rem; 
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: .25rem;
+  margin-top: 5rem;
+  margin-right: 0rem; 
+  margin-bottom: 5rem; 
+  margin-left: 0rem;
+}
+
+.articulo2 .card div.card-body {
+  flex: 1 1 auto;
+  padding: 0.1rem;
+}
+
+.articulo2 .card h5.card-title {
+  margin-bottom: auto;
+  font-weight: bold;
+}
+
+.articulo2 .card .card-text {
+  color: black;
+  margin-bottom: auto;
+}
+
+div.card-body{
+  display: flex; 
+  flex-direction: column;
+}
+
+.articulo2 .card a.btn.btn-primary {
+  color: black;
+  background-color: gray;
+  border-color: black;
+  font-weight: 600;
+  line-height: normal;
+  align-items: center;
+}
+
+.articulo2 .card p {
+  font: 18px sans-serif;
+  color: white;
+  padding: 5px;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.iframe {
+  background-color: #f0f0f0;
+  margin: 15px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  p {
+    font: 12px sans-serif;
+    color: white;
+    padding: 5px;
+  }
+  .articulo2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 65rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .articulo2 .card{
+    width: 15rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  .articulo2 img:hover {
+    transition: 5s;
+    transform: scaleY(0.3rem);
+  }
+  .card {
+    margin: 1.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
+  p {
+    font: 14px sans-serif;
+    color: white;
+    padding: 5px;
+  }
+
+  .articulo2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 65rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .articulo2 .card{
+    width: 20rem;
+    height: 16rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+
+  .articulo2 img:hover {
+    transition: 5s;
+    transform: scaleY(00.1rem);
+  }
+  .card {
+    margin: 1.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  p {
+    font: 16px sans-serif;
+    color: white;
+    padding: 5px;
+  }
+
+  .articulo2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 65rem;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  }
+
+  .articulo2 .card{
+    width: 25rem;
+    height: 17rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+  }
+  .articulo2 img:hover {
+    transition: 5s;
+    transform: scaleY(1.1);
+  }
+  .card {
+    margin: 1.5rem;
+  }
+}
+/*# sourceMappingURL=incio.css.map */
