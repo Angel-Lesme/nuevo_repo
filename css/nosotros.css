@@ -37,3 +37,12 @@ body{
     border-radius: 60%;
 }
 
+footer{
+    background-color: white;
+    color: black;
+}
+
+.titulos-footer{
+    text-decoration: underline;
+    color: black;
+}
