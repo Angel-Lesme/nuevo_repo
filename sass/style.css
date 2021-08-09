@@ -92,9 +92,25 @@ footer .gmail img {
   width: 5%;
 }
 
-footer .gmail p {
-  font-size: 10px;
-  color: white;
+footer{
+    display: flex;
+    flex-direction:row ;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.titulos-footer{
+  text-decoration: underline;
+}
+
+.texto-negrita-footer{
+  font-weight:bold;
+}
+
+.footer-nosotros{
+  display: block;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
