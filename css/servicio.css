@@ -12,24 +12,29 @@ body{
     justify-content: center;
 }
 
+
 .table-bordered{
     width: 75%;
-    border-width: 5px;
-    background-color: grey;
-
+    border-width: 1px;
+    background-color: grey;   
 }
 
-th{ 
+th,td{ 
     text-align: center;
-    text-decoration-line:underline;
     color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+th{
+    text-decoration-line:underline;
 }
 
 td{
-    text-align: center;
-    color: black;
     padding: 2rem;
 }
+
+tr:hover {background-color: white;}
+
 .nombreservicio{
     font-weight: bold;
     text-align: center;
