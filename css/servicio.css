@@ -49,7 +49,7 @@ h2{
 }
 
 
-.corteMasculino , .corteFemenino{
+.corteMasculino , .corteFemenino, .color{
     width: 80%;
     margin: auto;
     display: flex;
@@ -63,7 +63,7 @@ h2{
     flex-direction: row-reverse;
 }
 
-.corteMasculino img , .corteFemenino img{
+.corteMasculino img , .corteFemenino img, .color img{
     padding: 35px;
     width: 30%;
     height: auto;
