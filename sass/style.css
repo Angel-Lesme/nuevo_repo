@@ -24,7 +24,6 @@ body h1 {
   font-weight: bolder;
   text-align: center;
 }
-
 header {
   width: auto;
   margin: 0px;
@@ -34,7 +33,6 @@ header {
   background-color: black;
   padding: 2px;
 }
-
 .lista {
   background-color: black;
   margin-right: 5px;
@@ -45,7 +43,6 @@ header {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-
 .lista a {
   color: white;
   background-color: black;
@@ -54,11 +51,9 @@ header {
   font-size: 24px;
   padding: 0px;
 }
-
 .lista a:hover {
   color: gray;
 }
-
 li {
   list-style-type: none;
   display: inline;
@@ -67,7 +62,6 @@ li {
   text-align: center;
   font-weight: bolder;
 }
-
 footer {
   width: 100%;
   background-color: black;
@@ -81,21 +75,12 @@ footer {
     justify-content: space-evenly;
     color: white;
 }
-
-.titulos-footer{
-  text-decoration: underline;
-  font-weight: 100;
-  font-size: 2rem;
-}
-
 .texto-footer{
   font-size: 20px;
 }
-
 .texto-negrita-footer{
   font-weight:bold;
 }
-
 .footer-redes_sociales, .footer-nosotros{
   display: flex;
   flex-direction: column;
@@ -105,18 +90,19 @@ footer {
   width: 50%;
   text-align: center;
 }
-
-
+.footer-nosotros{
+  padding: 10px;
+}
 .img_footer{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 5px;
+  justify-content: center;
 }
-
 .img_footer img{
   width: 13%;
-  padding: 3px;
+  padding: 15px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
