@@ -1,6 +1,6 @@
 body{
     font-family: "Dosis", sans-serif;
-    background-image: linear-gradient(rgb(59, 59, 59), white);
+    background-image: linear-gradient(grey, white);
 }
 
 h1{
@@ -98,11 +98,6 @@ input{
     justify-content: center;
   }
   
-  .img_footer img{
-    width: 13%;
-    padding: 25px;
-  }
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
     
     .grid{
