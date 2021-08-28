@@ -32,50 +32,69 @@
     <Section>
         <article>
             <Section>
-                <article class="contenedorFormlario">
-                    <Form method="POST"> 
-                        <fieldset>
-                          <legend> Nombre</legend>
-                            <label for="nombre"> Nombre </label>
-                                <input type="text" name="nombre">
-                            <label for="apellido"> Apellido </label>
-                                <input type="text" name="apellido">
-                       </fieldset>
-                       <fieldset>
-                            <legend> Contacto</legend>
-                                <label for="Email"> Email </label>
-                            <input type="email" name="Email">
-                                <label for="Telefono"> Telefono </label>
-                            <input type="tel" name="Telefono">
-                       </fieldset>
-                       <fieldset>
-                           <legend>Seleccione el Servicio</legend>
-                                <select name="servicio" id="">Elija su servicio
+                <article>
+                    <div class="contenedorFormlario">
+                        <form class="row g-3">
+                            <div class="elecciones_para_turno">
+                                <div class="col-md-6">
+                                <label for="inputNombre" class="form-label">Nombre</label>
+                                <input type="Nombre" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                <label for="inputApellido" class="form-label">Apellido</label>
+                                <input type="Apellido" class="form-control" id="inputPassword4">
+                                </div>
+                                <div class="col-12">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputAddress" placeholder="jose25@gmail.com">
+                                </div>
+                                <div class="col-12">
+                                <label for="inputtelefono" class="form-label">Telefono</label>
+                                <input type="telefono" class="form-control" id="inputAddress2" placeholder="+54 1130442400">
+                                </div>
+                                <div class="col-md-4">
+                                <label for="inputSeleccione_Servicio" class="form-label">Seleccione Servicio</label>
+                                <select id="inputSeleccione_Servicio" class="form-select">
+                                    <option selected>Servicios</option>
                                     <option value="C.Masc">Corte Masculino</option>
                                     <option value="C.Fem">Corte Femenino</option>
                                     <option value="Uñas">Uñas</option>
                                     <option value="Color">Color</option>
                                     <option value="Masajes">Masajes</option>
                                 </select>
-                       </fieldset>
-                       <fieldset>
-                            <legend>Elija su Forma de Pago</legend>
-                                <label for="Tarjeta de Credito"> Tarjeta de Credito</label>
-                                    <input type="radio" name="Tatjeta de Credito" id="" value="si">
-                                <label for="Tarjeta de Debito">Tarjeta de Debito</label>
-                                    <input type="radio" name="Tatjeta de Debito" id="" value="no">
-                                <label for="Efectivo">Efectivo</label>
-                                    <input type="radio" name="Efectivo" id="" value="no">
-                       </fieldset>
-                        <fieldset>
-                            <h2>Ingrese Su Comentario</h2>
-                                <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
-                        </fieldset>
-                        <div class="botones"> 
-                            <input type="reset" value="Limpiar informacion" name="">
-                            <input type="submit" value="Enviar" name=""> 
-                        </div>
-                    </Form>
+                                </div>
+                                <div class="col-12">
+                                    <label for="inputForma_pago" class="form-label">Elija Forma de Pago</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                        Tarjeta de Credito
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                        Tarjeta de Debito
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                        Efectivo
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>    
+                            <fieldset>
+                                <h2>Ingrese Su Comentario</h2>
+                                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                            </fieldset>
+                            <div class="botones"> 
+                                <input type="reset" value="Limpiar informacion" name="">
+                                <input type="submit" value="Enviar" name=""> 
+                            </div>
+                        </form>
+                    </div>   
                 </article>
             </Section>
         </article>
@@ -98,5 +117,8 @@
 </div>
         </div>
     </footer>
+    <script src="../js/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
 </body>
 </html>
