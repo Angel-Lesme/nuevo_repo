@@ -12,7 +12,6 @@ body {
   height: 400px;
 }
 
-
 .articulo2 {
   background-color: black;
   width: 100%;
@@ -23,11 +22,6 @@ body {
   align-items: stretch;
   align-content:center;
   justify-content: space-around;
-}
-
-.articulo2 img:hover {
-  transition: 5s;
-  transform: scaleY(1.1);
 }
 
 .articulo2 .card {
@@ -113,11 +107,6 @@ div.card-body{
     margin-right: 2rem;
     margin-bottom: 2rem;
     margin-left: 2rem;
-  }
-
-  .articulo2 img:hover {
-    transition: 5s;
-    transform: scaleY(0.3rem);
   }
   .card {
     margin: 1.5rem;
