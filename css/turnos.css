@@ -16,6 +16,26 @@ form {
     text-align: center;
 }
 
+input[type=Nombre] , input[type=Apellido] , input[type=email] , input[type=telefono] {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d1d1;
+    font-family: 'Roboto Condensed',sans-serif,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    height: 40px;
+    line-height: 1.42857143;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 100%;
+}
+
+.col-12-pago{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+padding: 10px;
+}
 textarea{
     width: 100%;
 }
