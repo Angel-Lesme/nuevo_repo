@@ -49,3 +49,10 @@ textarea{
 .botones input{
     margin: 2rem;
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px){
+    .col-12-pago{
+        flex-direction: column;
+    }
+}
+
