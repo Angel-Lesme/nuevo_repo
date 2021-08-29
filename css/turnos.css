@@ -29,6 +29,10 @@ input[type=Nombre] , input[type=Apellido] , input[type=email] , input[type=telef
     width: 100%;
 }
 
+.col-md-4{
+    padding: 10px;
+}
+
 .col-12-pago{
 display: flex;
 flex-direction: row;
